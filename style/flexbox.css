@@ -1,0 +1,66 @@
+#box1{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    border:solid orange;
+    align-items: center;  
+}
+
+#box1 >div {
+    background-color: purple;
+    color: blue;
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px
+    
+}
+
+#box2{
+    display:flex;
+    width:100%;
+    height:400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#box2 >div {
+    height:200px;
+    width:200px;
+    background-color:green;
+}
+
+#box2 >div:hover{
+    background-color:blue;
+    width:300px;
+    transition:2s;
+}
+
+Li:nth-child(odd){
+    background:brown;
+}
+
+nav >div{
+background:yellow;
+color:brown;
+width:100px;
+margin:10px;
+text-align:center;
+line-height:75px;
+font-size:30px;
+}
+
+nav{
+    display:flex;
+     height:150px;
+     justify-content:center;
+     border: solid black;
+    align-items:center;
+}
+
+nav >div:hover{
+    background:pink;
+    width:280px;
+    transition:200ms;
+}
