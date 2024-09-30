@@ -1,0 +1,6 @@
+ I use w3 schools as resource 
+ the hover is used to select elements
+ https://www.w3schools.com/cssref/sel_hover.php
+ The nth-child is a selector matches every element
+ https://www.w3schools.com/cssref/sel_nth-child.php
+ Use the uls
